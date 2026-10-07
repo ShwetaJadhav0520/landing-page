@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoolBreeze AC Installation | Expert AC Installers</title>
+  <meta name="description" content="Reliable, energy-efficient air conditioning installed by certified professionals. Book your installation today.">
+
+  <!-- Google Fonts (needs internet). If offline, the fallback fonts in style.css are used. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+
+      <!-- Logo (Top Left) -->
+      <a href="#top" class="logo" aria-label="CoolBreeze home">
+        <svg class="logo-icon" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true">
+          <rect x="2" y="6" width="28" height="14" rx="4" fill="#0E2A3B"/>
+          <rect x="6" y="14" width="20" height="2" rx="1" fill="#7FD3EA"/>
+          <path d="M9 24c2 2 2 4 0 6M16 24c2 2 2 4 0 6M23 24c2 2 2 4 0 6"
+                stroke="#7FD3EA" stroke-width="2" stroke-linecap="round" fill="none"/>
+        </svg>
+        <span class="logo-text">CoolBreeze</span>
+      </a>
+
+      <!-- Hamburger button (visible only on mobile) -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <!-- Navigation (Top Right) -->
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Call to Action Buttons -->
+        <div class="header-cta">
+          <a href="tel:+911234567890" class="btn btn-ghost">📞 Call Now</a>
+          <a href="#contact" class="btn btn-primary btn-pulse" data-open-quote>🗓️ Get a Free Quote</a>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+
+        <!-- Left side: text content -->
+        <div class="hero-content">
+          <h1 class="hero-title anim" style="--d:0.1s">Stay Cool, Stay Comfortable. Expert AC Installation You Can Trust</h1>
+
+          <p class="hero-subtitle anim" style="--d:0.3s">
+            Reliable, energy-efficient air conditioning systems installed by certified professionals.
+            Fast service. Transparent pricing. Satisfaction guaranteed.
+          </p>
+
+          <div class="hero-buttons anim" style="--d:0.5s">
+            <!-- Primary CTA -->
+            <a href="#contact" class="btn btn-primary btn-large" data-open-quote>🔧 Book Installation Today</a>
+            <!-- Secondary CTA -->
+            <a href="tel:+911234567890" class="btn btn-outline btn-large">📞 Speak with a Specialist</a>
+          </div>
+
+          <!-- Trust Indicators -->
+          <ul class="trust-list anim" style="--d:0.7s" aria-label="Why customers trust us">
+            <li><span aria-hidden="true">⭐</span> 5-Star Rated</li>
+            <li><span aria-hidden="true">🧰</span> Licensed &amp; Insured</li>
+            <li><span aria-hidden="true">⏱️</span> Same-Day Appointments Available</li>
+          </ul>
+        </div>
+
+        <!-- Right side: AC drawing made with only HTML + CSS -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="ac-unit">
+            <div class="ac-display">22°C</div>
+            <div class="ac-vent"></div>
+          </div>
+          <div class="airflow">
+            <span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== OTHER SECTIONS (so nav links work) ===================== -->
+    <section class="section" id="services">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="card-grid">
+          <article class="card"><span class="card-icon">❄️</span><h3>AC Installation</h3><p>Split, window and ducted systems fitted neatly and safely.</p></article>
+          <article class="card"><span class="card-icon">🔧</span><h3>Repair &amp; Service</h3><p>Fast fixes and yearly servicing to keep cooling strong.</p></article>
+          <article class="card"><span class="card-icon">⚡</span><h3>Energy Check</h3><p>We advise on units that cut your electricity bill.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="about">
+      <div class="container narrow">
+        <h2 class="section-title">About Us</h2>
+        <p>We are a team of certified technicians with over 10 years of experience. We explain every price before we start, and we do not leave until you are happy.</p>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <div class="container">
+        <h2 class="section-title">Customer Reviews</h2>
+        <div class="card-grid">
+          <article class="card"><p class="stars">⭐⭐⭐⭐⭐</p><p>"Installed in 3 hours and the room was cool the same day."</p><strong>Rahul S.</strong></article>
+          <article class="card"><p class="stars">⭐⭐⭐⭐⭐</p><p>"Clear pricing and very polite team. Highly recommended."</p><strong>Priya M.</strong></article>
+          <article class="card"><p class="stars">⭐⭐⭐⭐⭐</p><p>"Same-day appointment, clean work, no hidden charges."</p><strong>Amit K.</strong></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="container narrow">
+        <h2 class="section-title">Contact Us</h2>
+        <p>📞 +91 12345 67890 &nbsp;|&nbsp; ✉️ hello@coolbreeze.com</p>
+        <button type="button" class="btn btn-primary btn-large" data-open-quote>🗓️ Get a Free Quote</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== QUOTE POPUP ===================== -->
+  <div class="modal" id="quoteModal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="quoteTitle">
+      <button type="button" class="modal-close" id="quoteClose" aria-label="Close">&times;</button>
+      <h2 id="quoteTitle">Get a Free Quote</h2>
+      <p class="modal-text">Tell us a little. We will call you back within 30 minutes.</p>
+      <form id="quoteForm" novalidate>
+        <label>Your name<input type="text" id="qName" placeholder="e.g. Shweta Jadhav" required></label>
+        <label>Phone number<input type="tel" id="qPhone" placeholder="10-digit number" required></label>
+        <label>Service
+          <select id="qService">
+            <option>AC Installation</option>
+            <option>AC Repair &amp; Service</option>
+            <option>Energy Check</option>
+          </select>
+        </label>
+        <p class="form-error" id="qError" role="alert"></p>
+        <button type="submit" class="btn btn-primary btn-large">Send Request</button>
+      </form>
+      <div class="form-success" id="qSuccess" hidden>✅ Thank you! We will call you soon.</div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 CoolBreeze AC Installation. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
